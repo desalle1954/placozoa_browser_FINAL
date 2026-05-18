@@ -1,0 +1,73 @@
+track H2_gene_annotation
+longLabel Trichoplax sp. H2 NCBI gene annotation GCA_003344405.1
+shortLabel H2 Genes
+bigDataUrl data/H2.bigGenePred
+type bigGenePred
+priority 1
+visibility full
+baseColorDefault genomicCodons
+
+track H2_RNAseq
+longLabel Trichoplax sp. H2 transcriptome Reads Per Million (SRR5819939)
+shortLabel H2 transcriptome
+bigDataUrl data/SRR5819939.bigWig
+type bigWig
+autoScale on
+priority 1
+color 113,188,104
+visibility full
+
+track h1
+longLabel LAST alignment of H1 to H2
+shortLabel h1
+bigDataUrl data/h1_vs_h2.bb
+speciesOrder h1
+type bigMaf
+priority 2
+color 0,0,255
+itemRgb On
+visibility full
+
+track h4
+longLabel LAST alignment of H4 to H2
+shortLabel h4
+bigDataUrl data/h4_vs_h2.bb
+speciesOrder h4
+type bigMaf
+priority 2
+color 0,0,255
+itemRgb On
+visibility full
+
+track h6
+longLabel LAST alignment of H6 to H2
+shortLabel h6
+bigDataUrl data/h6_vs_h2.bb
+speciesOrder h6
+type bigMaf
+priority 2
+color 0,0,255
+itemRgb On
+visibility full
+
+track h11
+longLabel LAST alignment of H11 to H2
+shortLabel h11
+bigDataUrl data/h11_vs_h2.bb
+speciesOrder h11
+type bigMaf
+priority 2
+color 0,0,255
+itemRgb On
+visibility full
+
+track h13
+longLabel LAST alignment of H13 to H2
+shortLabel h13
+bigDataUrl data/h13_vs_h2.bb
+speciesOrder h13
+type bigMaf
+priority 2
+color 0,0,255
+itemRgb On
+visibility full

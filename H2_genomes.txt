@@ -1,0 +1,6 @@
+genome H2
+trackDb data/H2_trackdb.txt
+organism Trichoplax sp.
+description Trichoplax
+twoBitPath data/H2.2bit
+defaultPos scaffold_163:96000-100000
