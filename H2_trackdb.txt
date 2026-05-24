@@ -99,7 +99,7 @@ longLabel LAST alignment of H17 to H2
 shortLabel h17
 bigDataUrl data/H17_GNM_vs_H2.synteny.bb
 speciesOrder h17
-type bigBed 6
+type bigBed
 priority 5
 color 0,200,0
 itemRgb On
