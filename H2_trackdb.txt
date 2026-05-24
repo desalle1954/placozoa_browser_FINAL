@@ -17,60 +17,60 @@ priority 1
 color 113,188,104
 visibility full
 
-#track h1
-#longLabel LAST alignment of H1 to H2
-#shortLabel h1
-#bigDataUrl data/h1_vs_h2.bb
-#speciesOrder h1
-#type bigBed 6
-#priority 2
-#color 0,0,255
-#itemRgb On
-#visibility full
+track h1
+longLabel LAST alignment of H1 to H2
+shortLabel h1
+bigDataUrl data/h1_vs_h2.bb
+speciesOrder h1
+type bigMaf
+priority 2
+color 0,0,255
+itemRgb On
+visibility full
 
-#track h4
-#longLabel LAST alignment of H4 to H2
-#shortLabel h4
-#bigDataUrl data/h4_vs_h2.bb
-#speciesOrder h4
-#type bigBed 6
-#priority 2
-#color 0,0,255
-#itemRgb On
-#visibility full
+track h4
+longLabel LAST alignment of H4 to H2
+shortLabel h4
+bigDataUrl data/h4_vs_h2.bb
+speciesOrder h4
+type bigMaf
+priority 2
+color 0,0,255
+itemRgb On
+visibility full
 
-#track h6
-#longLabel LAST alignment of H6 to H2
-#shortLabel h6
-#bigDataUrl data/h6_vs_h2.bb
-#speciesOrder h6
-#type bigBed 6
-#priority 2
-#color 0,0,255
-#itemRgb On
-#visibility full
+track h6
+longLabel LAST alignment of H6 to H2
+shortLabel h6
+bigDataUrl data/h6_vs_h2.bb
+speciesOrder h6
+type bigMaf
+priority 2
+color 0,0,255
+itemRgb On
+visibility full
 
-#track h11
-#longLabel LAST alignment of H11 to H2
-#shortLabel h11
-#bigDataUrl data/h11_vs_h2.bb
-#speciesOrder h11
-#type bigBed 6
-#priority 2
-#color 0,0,255
-#itemRgb On
-#visibility full
+track h11
+longLabel LAST alignment of H11 to H2
+shortLabel h11
+bigDataUrl data/h11_vs_h2.bb
+speciesOrder h11
+type bigMaf
+priority 2
+color 0,0,255
+itemRgb On
+visibility full
 
-#track h13
-#longLabel LAST alignment of H13 to H2
-#shortLabel h13
-#bigDataUrl data/h13_vs_h2.bb
-#speciesOrder h13
-#type bigBed 6
-#priority 2
-#color 0,0,255
-#itemRgb On
-#visibility full
+track h13
+longLabel LAST alignment of H13 to H2
+shortLabel h13
+bigDataUrl data/h13_vs_h2.bb
+speciesOrder h13
+type bigMaf
+priority 2
+color 0,0,255
+itemRgb On
+visibility full
 
 #track h0
 #longLabel LAST alignment of H0 to H2
@@ -94,16 +94,16 @@ visibility full
 #itemRgb On
 #visibility dense
 
-track h17
-longLabel LAST alignment of H17 to H2
-shortLabel h17
-bigDataUrl data/H17_GNM_vs_H2.synteny.bb
-speciesOrder h17
-type bigBed 6
-priority 5
-color 0,200,0
-itemRgb On
-visibility full
+#track h17
+#longLabel LAST alignment of H17 to H2
+#shortLabel h17
+#bigDataUrl data/H17_GNM_vs_H2.synteny.bb
+#speciesOrder h17
+#type bigBed 6
+#priority 5
+#color 0,200,0
+#itemRgb On
+#visibility full
 
 #track h19
 #longLabel LAST alignment of H19 to H2
