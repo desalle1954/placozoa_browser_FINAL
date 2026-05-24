@@ -127,13 +127,13 @@ color 180,0,255
 itemRgb On
 visibility dense
 
-#track h25
-#longLabel LAST alignment of H25 to H2
-#shortLabel h25
-#bigDataUrl data/H25_GNM_vs_H2.synteny.bb
-#speciesOrder h25
-#type bigBed 6
-#priority 8
-#color 100,100,100
-#itemRgb On
-#visibility dense
+track h25
+longLabel LAST alignment of H25 to H2
+shortLabel h25
+bigDataUrl data/H25_GNM_vs_H2.synteny.bb
+speciesOrder h25
+type bigBed 6
+priority 8
+color 100,100,100
+itemRgb On
+visibility dense
