@@ -77,7 +77,7 @@ longLabel LAST alignment of H0 to H2
 shortLabel h0
 bigDataUrl data/H0_GNM_vs_H2.synteny.bb
 speciesOrder h0
-type bigBed
+type bigBed 6
 priority 3
 color 255,0,0
 itemRgb On
