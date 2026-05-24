@@ -61,16 +61,16 @@ color 0,0,255
 itemRgb On
 visibility full
 
-track h13
-longLabel LAST alignment of H13 to H2
-shortLabel h13
-bigDataUrl data/h13_vs_h2.bb
-speciesOrder h13
-type bigBed 6
-priority 2
-color 0,0,255
-itemRgb On
-visibility full
+#track h13
+#longLabel LAST alignment of H13 to H2
+#shortLabel h13
+#bigDataUrl data/h13_vs_h2.bb
+#speciesOrder h13
+#type bigBed 6
+#priority 2
+#color 0,0,255
+#itemRgb On
+#visibility full
 
 track h0
 longLabel LAST alignment of H0 to H2
