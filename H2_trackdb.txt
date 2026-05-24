@@ -17,16 +17,16 @@ priority 1
 color 113,188,104
 visibility full
 
-track h1
-longLabel LAST alignment of H1 to H2
-shortLabel h1
-bigDataUrl data/h1_vs_h2.bb
-speciesOrder h1
-type bigBed 6
-priority 2
-color 0,0,255
-itemRgb On
-visibility full
+#track h1
+#longLabel LAST alignment of H1 to H2
+#shortLabel h1
+#bigDataUrl data/h1_vs_h2.bb
+#speciesOrder h1
+#type bigBed 6
+#priority 2
+#color 0,0,255
+#itemRgb On
+#visibility full
 
 #track h4
 #longLabel LAST alignment of H4 to H2
