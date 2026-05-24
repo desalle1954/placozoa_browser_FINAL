@@ -22,7 +22,7 @@ longLabel LAST alignment of H1 to H2
 shortLabel h1
 bigDataUrl data/h1_vs_h2.bb
 speciesOrder h1
-type bigMaf
+type bigBed 6
 priority 2
 color 0,0,255
 itemRgb On
@@ -33,7 +33,7 @@ longLabel LAST alignment of H4 to H2
 shortLabel h4
 bigDataUrl data/h4_vs_h2.bb
 speciesOrder h4
-type bigMaf
+type bigBed 6
 priority 2
 color 0,0,255
 itemRgb On
@@ -44,7 +44,7 @@ longLabel LAST alignment of H6 to H2
 shortLabel h6
 bigDataUrl data/h6_vs_h2.bb
 speciesOrder h6
-type bigMaf
+type bigBed 6
 priority 2
 color 0,0,255
 itemRgb On
@@ -55,7 +55,7 @@ longLabel LAST alignment of H11 to H2
 shortLabel h11
 bigDataUrl data/h11_vs_h2.bb
 speciesOrder h11
-type bigMaf
+type bigBed 6
 priority 2
 color 0,0,255
 itemRgb On
@@ -66,7 +66,7 @@ longLabel LAST alignment of H13 to H2
 shortLabel h13
 bigDataUrl data/h13_vs_h2.bb
 speciesOrder h13
-type bigMaf
+type bigBed 6
 priority 2
 color 0,0,255
 itemRgb On
@@ -76,7 +76,7 @@ longLabel LAST alignment of H0 to H2
 shortLabel h0
 bigDataUrl data/H0_GNM_vs_H2.synteny.bb
 speciesOrder h0
-type bigMaf
+type bigBed 6
 priority 3
 color 255,0,0
 itemRgb On
@@ -87,7 +87,7 @@ longLabel LAST alignment of H15 to H2
 shortLabel h15
 bigDataUrl data/H15_GNM_vs_H2.synteny.bb
 speciesOrder h15
-type bigMaf
+type bigBed 6
 priority 4
 color 0,128,255
 itemRgb On
@@ -98,7 +98,7 @@ longLabel LAST alignment of H17 to H2
 shortLabel h17
 bigDataUrl data/H17_GNM_vs_H2.synteny.bb
 speciesOrder h17
-type bigMaf
+type bigBed 6
 priority 5
 color 0,200,0
 itemRgb On
@@ -109,7 +109,7 @@ longLabel LAST alignment of H19 to H2
 shortLabel h19
 bigDataUrl data/H19_GNM_vs_H2.synteny.bb
 speciesOrder h19
-type bigMaf
+type bigBed 6
 priority 6
 color 255,128,0
 itemRgb On
@@ -120,7 +120,7 @@ longLabel LAST alignment of H24 to H2
 shortLabel h24
 bigDataUrl data/H24_GNM_vs_H2.synteny.bb
 speciesOrder h24
-type bigMaf
+type bigBed 6
 priority 7
 color 180,0,255
 itemRgb On
@@ -131,7 +131,7 @@ longLabel LAST alignment of H25 to H2
 shortLabel h25
 bigDataUrl data/H25_GNM_vs_H2.synteny.bb
 speciesOrder h25
-type bigMaf
+type bigBed 6
 priority 8
 color 100,100,100
 itemRgb On
