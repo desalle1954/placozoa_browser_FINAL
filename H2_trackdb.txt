@@ -110,7 +110,7 @@ longLabel LAST alignment of H19 to H2
 shortLabel h19
 bigDataUrl data/H19_GNM_vs_H2.synteny.bb
 speciesOrder h19
-type bigBed
+type bigBed 6
 priority 6
 color 255,128,0
 itemRgb On
