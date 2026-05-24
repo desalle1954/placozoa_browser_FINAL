@@ -2,4 +2,4 @@ hub Trichoplax
 shortLabel Trichoplax
 longLabel Trichoplax H2
 genomesFile H2_genomes.txt
-email your_email@whatever.com
+email desalle@amnh.org
