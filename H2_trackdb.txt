@@ -121,7 +121,7 @@ longLabel LAST alignment of H24 to H2
 shortLabel h24
 bigDataUrl data/H24_GNM_vs_H2.synteny.bb
 speciesOrder h24
-type bigBed 6
+type bigBed
 priority 7
 color 180,0,255
 itemRgb On
