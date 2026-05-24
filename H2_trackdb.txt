@@ -88,7 +88,7 @@ longLabel LAST alignment of H15 to H2
 shortLabel h15
 bigDataUrl data/H15_GNM_vs_H2.synteny.bb
 speciesOrder h15
-type bigBed
+type bigBed 6
 priority 4
 color 0,128,255
 itemRgb On
