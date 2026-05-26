@@ -161,7 +161,7 @@ visibility dense
 track h13_dense
 longLabel Dense minimap2 alignment of H13 to H2
 shortLabel h13_dense
-bigDataUrl data/H13_vs_H2.hspLastz.bb
+bigDataUrl data/H13_GNM_vs_H2.hspLastz.bb
 type bigBed 6
 priority 22
 color 100,0,255
