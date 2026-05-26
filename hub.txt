@@ -3,3 +3,4 @@ shortLabel Trichoplax
 longLabel Trichoplax H2
 genomesFile H2_genomes.txt
 email desalle@amnh.org
+trackDb H2_trackdb_clean.txt
