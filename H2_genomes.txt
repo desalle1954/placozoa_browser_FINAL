@@ -1,5 +1,5 @@
 genome H2
-trackDb H2_trackdb_clean.txt
+trackDb H2_trackdb.txt
 organism Trichoplax sp.
 description Trichoplax
 twoBitPath data/H2.2bit
