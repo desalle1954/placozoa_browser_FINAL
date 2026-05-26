@@ -137,3 +137,84 @@ priority 8
 color 100,100,100
 itemRgb On
 visibility dense
+
+track h0_dense
+longLabel Dense minimap2 alignment of H0 to H2
+shortLabel h0_dense
+bigDataUrl data/H0_GNM_vs_H2.bb
+type bigBed 6
+priority 20
+color 255,0,0
+itemRgb On
+visibility dense
+
+track h1_dense
+longLabel Dense minimap2 alignment of H1 to H2
+shortLabel h1_dense
+bigDataUrl data/H1_GNM_vs_H2.bb
+type bigBed 6
+priority 21
+color 0,0,255
+itemRgb On
+visibility dense
+
+track h13_dense
+longLabel Dense minimap2 alignment of H13 to H2
+shortLabel h13_dense
+bigDataUrl data/H13_GNM_vs_H2.bb
+type bigBed 6
+priority 22
+color 100,0,255
+itemRgb On
+visibility dense
+
+track h15_dense
+longLabel Dense minimap2 alignment of H15 to H2
+shortLabel h15_dense
+bigDataUrl data/H15_GNM_vs_H2.bb
+type bigBed 6
+priority 23
+color 0,128,255
+itemRgb On
+visibility dense
+
+track h17_dense
+longLabel Dense minimap2 alignment of H17 to H2
+shortLabel h17_dense
+bigDataUrl data/H17_GNM_vs_H2.bb
+type bigBed 6
+priority 24
+color 0,200,0
+itemRgb On
+visibility dense
+
+track h19_dense
+longLabel Dense minimap2 alignment of H19 to H2
+shortLabel h19_dense
+bigDataUrl data/H19_GNM_vs_H2.bb
+type bigBed 6
+priority 25
+color 255,128,0
+itemRgb On
+visibility dense
+
+track h24_dense
+longLabel Dense minimap2 alignment of H24 to H2
+shortLabel h24_dense
+bigDataUrl data/H24_GNM_vs_H2.bb
+type bigBed 6
+priority 26
+color 180,0,255
+itemRgb On
+visibility dense
+
+track h25_dense
+longLabel Dense minimap2 alignment of H25 to H2
+shortLabel h25_dense
+bigDataUrl data/H25_GNM_vs_H2.bb
+type bigBed 6
+priority 27
+color 100,100,100
+itemRgb On
+visibility dense
+
