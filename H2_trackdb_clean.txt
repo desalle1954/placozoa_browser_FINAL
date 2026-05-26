@@ -1,3 +1,4 @@
+
 track H2_gene_annotation
 longLabel Trichoplax sp. H2 NCBI gene annotation GCA_003344405.1
 shortLabel H2 Genes
@@ -17,82 +18,121 @@ priority 2
 color 113,188,104
 visibility full
 
-track h0
-longLabel LASTZ local alignment of H0 to H2
-shortLabel h0
-bigDataUrl data/H0_GNM_vs_H2.bb
+# ============================================================
+# LEGACY DENSE TRACKS
+# ============================================================
+
+track h4
+longLabel Legacy dense alignment of H4 to H2
+shortLabel h4
+bigDataUrl data/h4_vs_h2.bb
 type bigBed 6
 priority 10
+color 0,0,255
+itemRgb On
+visibility dense
+
+track h6
+longLabel Legacy dense alignment of H6 to H2
+shortLabel h6
+bigDataUrl data/h6_vs_h2.bb
+type bigBed 6
+priority 11
+color 0,0,200
+itemRgb On
+visibility dense
+
+track h11
+longLabel Legacy dense alignment of H11 to H2
+shortLabel h11
+bigDataUrl data/h11_vs_h2.bb
+type bigBed 6
+priority 12
+color 0,128,255
+itemRgb On
+visibility dense
+
+# ============================================================
+# NEW HSP-STYLE LASTZ TRACKS
+# ============================================================
+
+track h0
+longLabel LASTZ HSP local occupancy alignment of H0 to H2
+shortLabel h0
+bigDataUrl data/H0_GNM_vs_H2.hspLastz.bb
+type bigBed 6
+priority 20
 color 255,0,0
 itemRgb On
 visibility dense
 
 track h1
-longLabel LASTZ local alignment of H1 to H2
+longLabel LASTZ HSP local occupancy alignment of H1 to H2
 shortLabel h1
-bigDataUrl data/H1_GNM_vs_H2.bb
+bigDataUrl data/H1_GNM_vs_H2.hspLastz.bb
 type bigBed 6
-priority 11
+priority 21
 color 0,0,255
 itemRgb On
 visibility dense
 
 track h13
-longLabel LASTZ local alignment of H13 to H2
+longLabel LASTZ HSP local occupancy alignment of H13 to H2
 shortLabel h13
-bigDataUrl data/H13_GNM_vs_H2.bb
+bigDataUrl data/H13_GNM_vs_H2.hspLastz.bb
 type bigBed 6
-priority 12
+priority 22
 color 120,0,255
 itemRgb On
 visibility dense
 
 track h15
-longLabel LASTZ local alignment of H15 to H2
+longLabel LASTZ HSP local occupancy alignment of H15 to H2
 shortLabel h15
-bigDataUrl data/H15_GNM_vs_H2.bb
+bigDataUrl data/H15_GNM_vs_H2.hspLastz.bb
 type bigBed 6
-priority 13
+priority 23
 color 0,128,255
 itemRgb On
 visibility dense
 
 track h17
-longLabel LASTZ local alignment of H17 to H2
+longLabel LASTZ HSP local occupancy alignment of H17 to H2
 shortLabel h17
-bigDataUrl data/H17_GNM_vs_H2.bb
+bigDataUrl data/H17_GNM_vs_H2.hspLastz.bb
 type bigBed 6
-priority 14
+priority 24
 color 0,200,0
 itemRgb On
 visibility dense
 
 track h19
-longLabel LASTZ local alignment of H19 to H2
+longLabel LASTZ HSP local occupancy alignment of H19 to H2
 shortLabel h19
-bigDataUrl data/H19_GNM_vs_H2.bb
+bigDataUrl data/H19_GNM_vs_H2.hspLastz.bb
 type bigBed 6
-priority 15
+priority 25
 color 255,128,0
 itemRgb On
 visibility dense
 
 track h24
-longLabel LASTZ local alignment of H24 to H2
+longLabel LASTZ HSP local occupancy alignment of H24 to H2
 shortLabel h24
-bigDataUrl data/H24_GNM_vs_H2.bb
+bigDataUrl data/H24_GNM_vs_H2.hspLastz.bb
 type bigBed 6
-priority 16
+priority 26
 color 180,0,255
 itemRgb On
 visibility dense
 
 track h25
-longLabel LASTZ local alignment of H25 to H2
+longLabel LASTZ HSP local occupancy alignment of H25 to H2
 shortLabel h25
-bigDataUrl data/H25_GNM_vs_H2.bb
+bigDataUrl data/H25_GNM_vs_H2.hspLastz.bb
 type bigBed 6
-priority 17
+priority 27
 color 100,100,100
 itemRgb On
 visibility dense
+
