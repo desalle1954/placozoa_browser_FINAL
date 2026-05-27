@@ -1,17 +1,5 @@
-track H2_gene_annotation
-longLabel Trichoplax sp. H2 NCBI gene annotation
-shortLabel H2 Genes
-bigDataUrl data/H2.bigGenePred
-type bigGenePred
-priority 1
-visibility full
-
-track H2_RNAseq
-longLabel Trichoplax sp. H2 transcriptome
-shortLabel H2 transcriptome
-bigDataUrl data/SRR5819939.bigWig
-type bigWig
-priority 2
-visibility full
-color 113,188,104
-autoScale on
+track emptyTest
+shortLabel empty
+longLabel empty test
+type bed 3
+visibility hide
