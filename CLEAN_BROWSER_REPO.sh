@@ -1,3 +1,56 @@
+#!/bin/bash
+
+set -e
+
+echo
+echo "====================================================="
+echo "CREATING CLEAN ARCHIVE STRUCTURE"
+echo "====================================================="
+echo
+
+mkdir -p ARCHIVE/minimap2
+mkdir -p ARCHIVE/synteny
+mkdir -p ARCHIVE/old_trackdb
+mkdir -p ARCHIVE/failed_lastz
+mkdir -p ARCHIVE/extra_rnaseq
+
+# =====================================================
+# MOVE OLD MINIMAP2 TRACKS
+# =====================================================
+
+mv data/H0_GNM_vs_H2.bb ARCHIVE/minimap2/ 2>/dev/null || true
+mv data/H1_GNM_vs_H2.bb ARCHIVE/minimap2/ 2>/dev/null || true
+mv data/H13_GNM_vs_H2.bb ARCHIVE/minimap2/ 2>/dev/null || true
+mv data/H15_GNM_vs_H2.bb ARCHIVE/minimap2/ 2>/dev/null || true
+mv data/H17_GNM_vs_H2.bb ARCHIVE/minimap2/ 2>/dev/null || true
+mv data/H19_GNM_vs_H2.bb ARCHIVE/minimap2/ 2>/dev/null || true
+mv data/H24_GNM_vs_H2.bb ARCHIVE/minimap2/ 2>/dev/null || true
+mv data/H25_GNM_vs_H2.bb ARCHIVE/minimap2/ 2>/dev/null || true
+
+# =====================================================
+# MOVE OLD SYNTENY TRACKS
+# =====================================================
+
+mv data/*synteny.bb ARCHIVE/synteny/ 2>/dev/null || true
+
+# =====================================================
+# MOVE FAILED CLEAN TRACKDB
+# =====================================================
+
+mv H2_trackdb_clean.txt ARCHIVE/old_trackdb/ 2>/dev/null || true
+mv H2_trackdb.txt.backup_dense_tracks ARCHIVE/old_trackdb/ 2>/dev/null || true
+
+# =====================================================
+# MOVE REDUNDANT RNA FILE
+# =====================================================
+
+mv data/SRR5819939_rpm.bw ARCHIVE/extra_rnaseq/ 2>/dev/null || true
+
+# =====================================================
+# CREATE FINAL CLEAN TRACKDB
+# =====================================================
+
+cat > H2_trackdb.txt << 'TRACKS'
 
 track H2_gene_annotation
 longLabel Trichoplax sp. H2 NCBI gene annotation
@@ -123,4 +176,28 @@ type bigBed 6
 visibility dense
 priority 25
 color 120,120,120
+
+TRACKS
+
+echo
+echo "====================================================="
+echo "FINAL CLEAN BROWSER STATE"
+echo "====================================================="
+echo
+
+echo
+echo "ACTIVE TRACKDB:"
+echo "H2_trackdb.txt"
+
+echo
+echo "ACTIVE DATA FILES:"
+ls data/*.bb
+
+echo
+echo "ARCHIVED FILES:"
+find ARCHIVE | head -50
+
+echo
+echo "DONE"
+echo
 
