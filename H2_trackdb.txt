@@ -1,5 +1,7 @@
-track emptyTest
-shortLabel empty
-longLabel empty test
-type bed 3
-visibility hide
+track H2_gene_annotation
+longLabel Trichoplax sp. H2 NCBI gene annotation
+shortLabel H2 Genes
+bigDataUrl data/H2.bigGenePred
+type bigGenePred
+priority 1
+visibility full
